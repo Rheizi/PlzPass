@@ -1,0 +1,124 @@
+{
+  "id": "cd16ee90-df16-48c1-b7e8-fb74f63a1e5c",
+  "version": "2.0",
+  "name": "1177",
+  "url": "https://www.1177.se",
+  "tests": [{
+    "id": "461e086b-0c86-4839-a193-7c943b8ae939",
+    "name": "1177 PlzPass",
+    "commands": [{
+      "id": "fb1ad9d9-b3bf-4e95-9923-2b6f4846e72f",
+      "comment": "",
+      "command": "open",
+      "target": "/Skane/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecfd04f9-499e-4fa0-a018-8c548ba52f80",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef9f6868-e0e4-4ef7-91f2-b7dd033ae4a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-toppnav__item:nth-child(2) span",
+      "targets": [
+        ["css=.c-toppnav__item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='react_0HMQ0LA5E3UNR']/div/div/header/div/div[3]/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn & gravid')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfe006bb-6bb2-4d96-a05f-fa39d1532507",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c-toppnav__item:nth-child(2) span",
+      "targets": [
+        ["css=.c-toppnav__item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='react_0HMQ0LA5E3UNR']/div/div/header/div/div[3]/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn & gravid')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52781f6-dd62-48ea-a81c-0b889ce5ff81",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.c-toppnav__item--is-selected > a > span",
+      "targets": [
+        ["css=.c-toppnav__item--is-selected > a > span", "css:finder"],
+        ["xpath=//div[@id='react_0HMQ0LA5E3UNR']/div/div/header/div/div[3]/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn & gravid')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6fcbd43-c42a-4141-9152-e47715ae77c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-toppnav__item:nth-child(3) span",
+      "targets": [
+        ["css=.c-toppnav__item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='react_0HMQ0LA5E3UNR']/div/div/header/div/div[3]/div/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Olyckor & skador')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39e3f8ef-4400-4ee9-b469-1309c853db31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-meganav__list__item:nth-child(1) span",
+      "targets": [
+        ["css=.c-meganav__list__item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='subnav-3452']/div/div/div/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Akuta råd – första hjälpen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34352eb6-2395-4fc9-bf2c-d0cf69f65405",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Allergisk chock – anafylaxi",
+      "targets": [
+        ["linkText=Allergisk chock – anafylaxi", "linkText"],
+        ["css=.medium-6:nth-child(1) .c-teaser__heading", "css:finder"],
+        ["xpath=//div[@id='content']/section[2]/div/div/div/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Skane/olyckor--skador/akuta-rad---forsta-hjalpen/allergisk-chock--anafylaxi/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Allergisk chock – anafylaxi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1b3c4e8-61c4-4159-bea9-ccdf46c6011f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=skaldjur, fisk och mjölk",
+      "targets": [
+        ["linkText=skaldjur, fisk och mjölk", "linkText"],
+        ["css=div:nth-child(1) > p > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'skaldjur, fisk och mjölk')]", "xpath:link"],
+        ["xpath=//div[@id='section-11815']/div/p/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Skane/sjukdomar--besvar/allergier-och-overkanslighet/matallergi/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'skaldjur, fisk och mjölk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "16057701-7a59-4c64-a99a-4b9ff0f36a9a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["461e086b-0c86-4839-a193-7c943b8ae939"]
+  }],
+  "urls": ["https://www.1177.se/"],
+  "plugins": []
+}
