@@ -1,0 +1,418 @@
+{
+  "id": "2474c045-2107-44cc-9e63-e2cf6ca2a666",
+  "version": "2.0",
+  "name": "Demo",
+  "url": "https://steamcommunity.com/#scrollTop=0",
+  "tests": [{
+    "id": "8c54a36d-b4e6-4fd3-92d9-106ba54ee9cb",
+    "name": "Verify Direct",
+    "commands": [{
+      "id": "7ae3f1d1-168f-420d-b205-ce308c812857",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96386f6a-1ce8-4bd4-ac57-7b27017e5e64",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1724x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed736f59-5ca0-4d3f-b9a8-e76551e8ca94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(8) > span",
+      "targets": [
+        ["css=.tab:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='store_nav_area']/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Points Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59afb4d4-79f2-4349-a460-72f7fa61ba93",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.styles_PageHomeTopTitle_3DDgg",
+      "targets": [
+        ["css=.styles_PageHomeTopTitle_3DDgg", "css:finder"],
+        ["xpath=//div[@id='application_root']/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "BUY GAMES, EARN POINTS"
+    }, {
+      "id": "e3497625-fc94-4729-9fdb-def299959bcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_PageHomeHowItWorks_2bWxo",
+      "targets": [
+        ["css=.styles_PageHomeHowItWorks_2bWxo", "css:finder"],
+        ["xpath=//div[@id='application_root']/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'How Points Work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "036c9e8f-e07e-4f8d-89f5-cef304687ff7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.padding-top-large > div > a > .index_AwardsLink_iKicb",
+      "targets": [
+        ["css=.padding-top-large > div > a > .index_AwardsLink_iKicb", "css:finder"],
+        ["xpath=//div[@id='CommunityAwards']/div[3]/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "84fb20d0-3eab-4938-b817-bbc7973537eb",
+    "name": "Verify with 2 text (1)",
+    "commands": [{
+      "id": "261203ec-d447-4b4f-836e-92df85901f1d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "916030b6-63af-4393-8000-b59b7dd61b4d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1724x1031",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5950cb1c-064d-49bc-a298-353e16eab827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab:nth-child(8) > span",
+      "targets": [
+        ["css=.tab:nth-child(8) > span", "css:finder"],
+        ["xpath=//div[@id='store_nav_area']/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Points Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95fbdefb-177b-4989-b43e-467cd3060127",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_PageHomeHowItWorks_2bWxo",
+      "targets": [
+        ["css=.styles_PageHomeHowItWorks_2bWxo", "css:finder"],
+        ["xpath=//div[@id='application_root']/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'How Points Work')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e50052c-1e1c-4756-9f14-4443fafcfe35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.padding-top-large > div > a > .index_AwardsLink_iKicb",
+      "targets": [
+        ["css=.padding-top-large > div > a > .index_AwardsLink_iKicb", "css:finder"],
+        ["xpath=//div[@id='CommunityAwards']/div[3]/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f7e5bbc-2196-4fa9-8581-951d53e86624",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.community_home_title",
+      "targets": [
+        ["css=.community_home_title", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "y"
+    }, {
+      "id": "142667cf-1a90-426f-8543-1d676729f877",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apphub_sectionTab:nth-child(5) > span",
+      "targets": [
+        ["css=.apphub_sectionTab:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div[2]/div/a[5]/span", "xpath:idRelative"],
+        ["xpath=//a[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Videos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c42ae02-bda1-4430-96ee-6da239ed6593",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.community_home_title",
+      "targets": [
+        ["css=.community_home_title", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "x"
+    }, {
+      "id": "b3d2703e-64dd-4088-954f-ddf53ef3ff6a",
+      "comment": "",
+      "command": "verify",
+      "target": "y",
+      "targets": [],
+      "value": "${x}"
+    }]
+  }, {
+    "id": "8decef4c-14ca-4c71-8844-fff00d1be031",
+    "name": "Assert 1",
+    "commands": [{
+      "id": "91e3802b-61f6-49de-8699-b6bd1fdbb355",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd666724-6c65-471e-a94a-4c11007caa73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2415x1275",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "166e944f-0c05-4121-92a5-1557b9657068",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SUPPORT",
+      "targets": [
+        ["linkText=SUPPORT", "linkText"],
+        ["css=.supernav_container > .menuitem:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'SUPPORT')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://help.steampowered.com/en/')])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'SUPPORT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d91b2e48-228c-4a2f-9349-5d8d71d9a15b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.btn_login_nag_right > span",
+      "targets": [
+        ["css=.btn_login_nag_right > span", "css:finder"],
+        ["xpath=//div[@id='help_home_block']/div[2]/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": "Help, I can't sign in"
+    }, {
+      "id": "189e544f-3ca4-4b48-94d5-688044c2451a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Purchases",
+      "targets": [
+        ["linkText=Purchases", "linkText"],
+        ["css=.help_wizard_button:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='help_home_block']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://help.steampowered.com/en/wizard/HelpWithPurchase')]", "xpath:href"],
+        ["xpath=//div[2]/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Purchases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff107af3-79db-4403-b8cb-c9000b37d4c7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.help_wizard_button:nth-child(5) > span",
+      "targets": [
+        ["css=.help_wizard_button:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='wizard_contents']/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": "I can't complete my purchase on the Steam Store"
+    }, {
+      "id": "fac693c8-eea4-412e-952a-1e45529c2c96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.help_wizard_button:nth-child(5) > span",
+      "targets": [
+        ["css=.help_wizard_button:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='wizard_contents']/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7df4f3-ca9e-4058-a4f3-8e33e4556829",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.help_wizard_button:nth-child(4) > .help_wizard_button_text",
+      "targets": [
+        ["css=.help_wizard_button:nth-child(4) > .help_wizard_button_text", "css:finder"],
+        ["xpath=//div[@id='wizard_contents']/div/div[3]/a[3]/div", "xpath:idRelative"],
+        ["xpath=//a[3]/div", "xpath:position"]
+      ],
+      "value": "In-Game Purchase"
+    }]
+  }, {
+    "id": "5e41bf10-ffe2-46e0-ab28-f7915323e2ec",
+    "name": "Assert 2",
+    "commands": [{
+      "id": "bc9ab6c9-f744-46d4-b28c-437bd23a84bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5126940a-0604-42a6-91af-ba260bd441d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2415x1275",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfe83c51-6193-41d5-8b29-6b8e31485719",
+      "comment": "",
+      "command": "click",
+      "target": "css=#global_header > .content",
+      "targets": [
+        ["css=#global_header > .content", "css:finder"],
+        ["xpath=//div[@id='global_header']/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8bc4648-285f-475a-9fea-7b3c3cad3a5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ABOUT",
+      "targets": [
+        ["linkText=ABOUT", "linkText"],
+        ["css=.menuitem:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'ABOUT')]", "xpath:link"],
+        ["xpath=//div[@id='global_header']/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://store.steampowered.com/about/?snr=1_4_4__global-header')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'ABOUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed808531-7dde-4e8f-a759-480bc8cef510",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#about_games_cta .cta_title",
+      "targets": [
+        ["css=#about_games_cta .cta_title", "css:finder"],
+        ["xpath=//div[@id='about_games_cta']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Access Games Instantly')]", "xpath:innerText"]
+      ],
+      "value": "Access Games Instantly"
+    }, {
+      "id": "eb5731f9-9490-4b4e-aeeb-587003a28f4a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse the Store",
+      "targets": [
+        ["linkText=Browse the Store", "linkText"],
+        ["css=#about_games_cta > .cta_content a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse the Store')]", "xpath:link"],
+        ["xpath=//div[@id='about_games_cta']/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://store.steampowered.com/')])[38]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4758537-6d70-4448-803d-6e6eb6552b1c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.home_cluster_ctn .home_page_content_title",
+      "targets": [
+        ["css=.home_cluster_ctn .home_page_content_title", "css:finder"],
+        ["xpath=//div[@id='responsive_page_template_content']/div/div[2]/div[6]/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "FEATURED & RECOMMENDED"
+    }]
+  }, {
+    "id": "c4cdd218-a7aa-4f83-8e7f-23a22ffaf6a5",
+    "name": "Verify with 2 text (2)",
+    "commands": [{
+      "id": "b24b29fc-7503-464f-aeb7-9d5950398d3f",
+      "comment": "",
+      "command": "open",
+      "target": "https://steamcommunity.com/#scrollTop=0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1932e0cd-e5bd-4503-abb1-58fcda9eebdb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db02e8f8-6fc4-48b1-b845-95be5153d988",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apphub_sectionTab:nth-child(3) > span",
+      "targets": [
+        ["css=.apphub_sectionTab:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div[2]/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Artwork')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb612c28-e851-4132-beef-3d6e32e81d8b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.community_home_title",
+      "targets": [
+        ["css=.community_home_title", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "p"
+    }, {
+      "id": "8b4d6095-405b-4dc6-b3ff-be4444dda9f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apphub_sectionTab:nth-child(5) > span",
+      "targets": [
+        ["css=.apphub_sectionTab:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div[2]/div/a[5]/span", "xpath:idRelative"],
+        ["xpath=//a[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Videos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f0b9fb9-6b5f-4adf-a144-7eeac1348a9d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.community_home_title",
+      "targets": [
+        ["css=.community_home_title", "css:finder"],
+        ["xpath=//div[@id='ModalContentContainer']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "y"
+    }, {
+      "id": "40ebef40-9b02-4a47-8f65-b2a0193a3351",
+      "comment": "",
+      "command": "verify",
+      "target": "p",
+      "targets": [],
+      "value": "${y}"
+    }]
+  }],
+  "suites": [{
+    "id": "d8dbb766-8665-47da-b349-01acd32e71c8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8c54a36d-b4e6-4fd3-92d9-106ba54ee9cb"]
+  }],
+  "urls": ["https://store.steampowered.com/", "https://steamcommunity.com/#scrollTop=0"],
+  "plugins": []
+}
